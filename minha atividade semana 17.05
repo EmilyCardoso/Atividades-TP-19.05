@@ -1,0 +1,38 @@
+salario duplo, ValorTotal, salariofinal;
+            int Escolha;
+            {
+
+            Console.WriteLine ("opção 1- aumento de 9%");
+            Console.WriteLine ("opção 2- aumento de 15%");
+            Console.WriteLine ("opção 3- aumento de 20%");
+            Console.WriteLine ("Usuario digite sua opçao");
+            Console.WriteLine ("Digite seu salario");
+            salario = double.Parse (Console.ReadLine ());
+            Console.WriteLine ("Usuario digite sua opçao");
+            Escolha = int.Parse (Console.ReadLine ());
+
+            switch (Escolha)
+                {
+                    caso 1:
+                        ValorTotal = salario * 0,09;
+                        salariofinal = (ValorTotal + salario);
+                        Console.WriteLine ("Valor do salario com aumento de 9% é R $:" + salariofinal);
+                        pausa;
+                    caso 2:
+                        ValorTotal = salario * 0,15;
+                        salariofinal = (ValorTotal + salario);
+                        Console.WriteLine ("Valor do salario com aumento de 15% é R $:" + salariofinal);
+                        pausa;
+                    caso 3:
+                        ValorTotal = salario * 0,20;
+                        salariofinal = (ValorTotal + salario);
+                        Console.WriteLine ("Valor do salario com aumento de 20% é R $:" + salariofinal);
+                        pausa;
+
+                    padrão:
+                        Console.WriteLine ("Deseja reiniciar?");
+                        pausa;
+                }
+            }
+           
+        Console.ReadLine ();
